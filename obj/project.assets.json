@@ -557,11 +557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Frank\\Documents\\GitHub\\beconsult.Api\\beconsult.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Frank\\Documents\\GitHub\\beconsult.Api\\beconsult.Api\\beconsult.Api.csproj",
       "projectName": "beconsult.Api",
-      "projectPath": "C:\\Users\\Frank\\Documents\\GitHub\\beconsult.Api\\beconsult.Api.csproj",
+      "projectPath": "C:\\Users\\Frank\\Documents\\GitHub\\beconsult.Api\\beconsult.Api\\beconsult.Api.csproj",
       "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Frank\\Documents\\GitHub\\beconsult.Api\\obj\\",
+      "outputPath": "C:\\Users\\Frank\\Documents\\GitHub\\beconsult.Api\\beconsult.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

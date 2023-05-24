@@ -9,8 +9,9 @@
       "beconsult.Api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.4",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.2",
           "Swashbuckle.AspNetCore": "6.4.0",
-          "beconsult.DataAccessLayer": "1.0.0"
+          "beconsult.DataAccessLayer": "1.0.0.0"
         },
         "runtime": {
           "beconsult.Api.dll": {}
@@ -36,6 +37,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {},
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -74,9 +76,12 @@
           }
         }
       },
-      "beconsult.DataAccessLayer/1.0.0": {
+      "beconsult.DataAccessLayer/1.0.0.0": {
         "runtime": {
-          "beconsult.DataAccessLayer.dll": {}
+          "beconsult.DataAccessLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -108,6 +113,13 @@
       "path": "microsoft.openapi/1.4.3",
       "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5daNXm8Hb016oETmuHXiW8jclmRR9CzM7XrOh2htYhQ/7AAYtqntZ1MrZkh09+JTtdjYdGsy2XIMPe9cg83x5w==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.17.2",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
       "serviceable": true,
@@ -136,8 +148,8 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
     },
-    "beconsult.DataAccessLayer/1.0.0": {
-      "type": "project",
+    "beconsult.DataAccessLayer/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
