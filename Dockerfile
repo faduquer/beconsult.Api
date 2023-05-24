@@ -20,4 +20,8 @@ RUN dotnet publish "beconsult.Api.csproj" -c Release -o /app/publish /p:UseAppHo
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+
+# Expose port 80
+EXPOSE 80
+
 ENTRYPOINT ["dotnet", "beconsult.Api.dll"]
