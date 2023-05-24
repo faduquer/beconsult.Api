@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gQEuTVVLW8yyfQaMvBBtXY9mBAPfrFcuIvHNoIYDLyU=",
+  "Source": "beconsult.Api",
+  "BasePath": "_content/beconsult.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
